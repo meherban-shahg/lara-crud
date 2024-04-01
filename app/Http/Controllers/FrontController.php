@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class FrontController extends Controller
 {
     function index(){
-        return "working for test";
+        return "working for test purpose only";
     }
 }
