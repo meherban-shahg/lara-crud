@@ -20,3 +20,4 @@ use App\Http\Controllers\FrontController;
 // });
 
 Route::get('/',[FrontController::class,'index'])->name('/');
+Route::get('/category',[FrontController::class,'category'])->name('/category');
